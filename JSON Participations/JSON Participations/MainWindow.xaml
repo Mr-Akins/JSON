@@ -1,0 +1,19 @@
+﻿<Window x:Class="JSON_Participations.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Participations"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="Window_Loaded">
+        <Grid.Background>
+            <ImageBrush ImageSource="https://imgnooz.com/sites/default/files/wallpaper/movies/59972/iron-throne-game-thrones-wallpapers-59972-2747441.jpg"
+                        Stretch="UniformToFill">
+
+            </ImageBrush>
+        </Grid.Background>
+        <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Height="59" Margin="10,25,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="772" Foreground="#FFF7F1F1" FontSize="14"/>
+
+    </Grid>
+</Window>
